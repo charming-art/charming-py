@@ -1,0 +1,31 @@
+{
+  "name": "@charming-art/charming",
+  "version": "0.0.1",
+  "description": "The JavaScript library for creative coding and visualization.",
+  "author": {
+    "name": "pearmini",
+    "url": "https://github.com/pearmini"
+  },
+  "license": "ISC",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": [
+    "src/**/*.js",
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "build": "rm -rf dist && rollup -c"
+  },
+  "dependencies": {
+    "@charming-art/app": "^0.0.1",
+    "@charming-art/vector": "^0.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-terser": "^0.4.3",
+    "rollup": "^3.28.1",
+    "vitest": "^0.34.2"
+  }
+}
