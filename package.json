@@ -20,7 +20,8 @@
   },
   "dependencies": {
     "@charming-art/app": "^0.0.1",
-    "@charming-art/vector": "^0.0.1"
+    "@charming-art/vector": "^0.0.1",
+    "@charming-art/geometry": "^0.0.1"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.1",
